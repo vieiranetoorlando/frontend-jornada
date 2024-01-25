@@ -1,8 +1,5 @@
-# React + Vite
+# Projeto Frontend com Vite + React + Node API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto frontend simples construído com Vite (um construtor de aplicações web rápido) e React (uma biblioteca JavaScript para construir interfaces de usuário). No final, o frontend se conectará a uma API Node para obter e exibir dados.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Em construção ...
