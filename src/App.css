@@ -1,6 +1,13 @@
 
+.card {
+  box-shadow: 4px 4px black;
+  border-radius: 20px;
+}
+
+
 .card > img {
   border-radius: 10px;
+  box-shadow: 4px 4px grey;
 }
 
 .tags{
