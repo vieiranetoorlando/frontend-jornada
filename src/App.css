@@ -20,6 +20,7 @@
   padding: 16px;
   text-align: center;
   cursor: pointer;
+  background: rgb(209, 209, 209);
 }
 
 
@@ -38,12 +39,12 @@
 }
 
 .tag{
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   color: black;
   font-size: 12px;
   font-weight: bold;
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 4px;
-  box-shadow: 4px 4px grey;
+
   
 }
