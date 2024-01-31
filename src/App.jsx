@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Card from './components/Card/Card'
+import { useEffect } from 'react'
 
 function App() {
 
@@ -34,8 +35,14 @@ function App() {
   setItens(results)
 
   }
+
+
+  //Protegendo o carregamento de dados da API para chamar apenas uma única vez
+  useEffect(function () {
 // Chamando a função que carrega os dados da API
   carregarDadosApi()
+  }, [])
+
 
   return (
 
