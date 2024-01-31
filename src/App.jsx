@@ -23,16 +23,27 @@ function App() {
   }
   const itens =[ item1, item2, item3, item4]
 
+  //Carregamento de dados da API (Backend)
   async function carregarDadosApi() {
+    //Declarar a UTL da API
   const apiURL = 'https://rickandmortyapi.com/api/character/'
-
+    //Preparar e executar a Requisição
   const response = await fetch(apiURL)
 
-  console.log(response)
-  }
+  //console.log(response)
 
+  const body = await response.json()
+
+  console.log(body)
+
+  // Extrair a propriedade results do body
+  //Essa propiedade contém a lista de itens
+  const results = body.results;
+
+  }
+// Chamando a função que carrega os dados da API
   carregarDadosApi()
-  
+
   return (
 
     
