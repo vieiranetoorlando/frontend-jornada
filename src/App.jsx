@@ -23,7 +23,19 @@ function App() {
   }
   const itens =[ item1, item2, item3, item4]
 
+  async function carregarDadosApi() {
+  const apiURL = 'https://rickandmortyapi.com/api/character/'
+
+  const response = await fetch(apiURL)
+
+  console.log(response)
+  }
+
+  carregarDadosApi()
+  
   return (
+
+    
     
     <>
     <div className="cards">
